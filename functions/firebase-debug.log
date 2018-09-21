@@ -1,0 +1,62 @@
+[debug] [2018-08-21T15:10:11.788Z] ----------------------------------------------------------------------
+[debug] [2018-08-21T15:10:11.792Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-21T15:10:11.792Z] CLI Version:   4.1.2
+[debug] [2018-08-21T15:10:11.792Z] Platform:      darwin
+[debug] [2018-08-21T15:10:11.792Z] Node Version:  v8.9.1
+[debug] [2018-08-21T15:10:11.793Z] Time:          Tue Aug 21 2018 17:10:11 GMT+0200 (CEST)
+[debug] [2018-08-21T15:10:11.793Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-21T15:10:11.809Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-21T15:10:11.809Z] > authorizing via signed-in user
+[debug] [2018-08-21T15:10:11.810Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-21T15:10:11.811Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-21T15:10:12.356Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-21T15:10:12.373Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nuxeo-assistant  
+ 
+[debug] [2018-08-21T15:10:13.450Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-21T15:10:13.452Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nuxeo-assistant  
+ 
+[debug] [2018-08-21T15:10:14.058Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/yannis/dev/NuxeoAssistant'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-21T15:10:14.903Z] Fetching environment
+[debug] [2018-08-21T15:10:14.907Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/727508763070:getServerAppConfig  
+ 
+[debug] [2018-08-21T15:10:15.646Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-21T15:10:15.646Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-21T15:10:17.214Z] Parsing function triggers
+[info] ✔  functions: webhook: http://localhost:5000/nuxeo-assistant/us-central1/webhook
+[debug] [2018-08-27T09:04:25.802Z] ----------------------------------------------------------------------
+[debug] [2018-08-27T09:04:25.804Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-27T09:04:25.804Z] CLI Version:   4.1.2
+[debug] [2018-08-27T09:04:25.804Z] Platform:      darwin
+[debug] [2018-08-27T09:04:25.804Z] Node Version:  v8.9.1
+[debug] [2018-08-27T09:04:25.805Z] Time:          Mon Aug 27 2018 11:04:25 GMT+0200 (CEST)
+[debug] [2018-08-27T09:04:25.805Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-27T09:04:25.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-27T09:04:25.821Z] > authorizing via signed-in user
+[debug] [2018-08-27T09:04:25.823Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-27T09:04:25.823Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-27T09:04:26.355Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T09:04:26.367Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nuxeo-assistant  
+ 
+[debug] [2018-08-27T09:04:27.149Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T09:04:27.150Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nuxeo-assistant  
+ 
+[debug] [2018-08-27T09:04:27.682Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/yannis/dev/NuxeoAssistant'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-27T09:04:28.848Z] Fetching environment
+[debug] [2018-08-27T09:04:28.855Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/727508763070:getServerAppConfig  
+ 
+[debug] [2018-08-27T09:04:29.540Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T09:04:29.541Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-27T09:04:31.098Z] Parsing function triggers
+[info] ✔  functions: webhook: http://localhost:5000/nuxeo-assistant/us-central1/webhook

@@ -1,0 +1,32 @@
+ContextValues {
+  _session: 'projects/nuxeo-assistant/agent/sessions/1534422437230',
+  input:
+   { actions_capability_screen_output:
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/actions_capability_screen_output',
+        lifespan: undefined,
+        parameters: [Object] },
+     _actions_on_google:
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/_actions_on_google',
+        lifespan: 98,
+        parameters: [Object] },
+     google_assistant_input_type_voice:
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/google_assistant_input_type_voice',
+        lifespan: undefined,
+        parameters: [Object] },
+     actions_capability_audio_output:
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/actions_capability_audio_output',
+        lifespan: undefined,
+        parameters: [Object] },
+     actions_capability_media_response_audio:
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/actions_capability_media_response_audio',
+        lifespan: undefined,
+        parameters: [Object] },
+     'document-id':
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/document-id',
+        lifespan: 5,
+        parameters: [Object] },
+     'searchdocument-followup':
+      { name: 'projects/nuxeo-assistant/agent/sessions/1534422437230/contexts/searchdocument-followup',
+        lifespan: undefined,
+        parameters: [Object] } },
+  output: {} }
