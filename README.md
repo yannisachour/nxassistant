@@ -2,7 +2,7 @@
 
 This project is an attempt at creating a conversational interface to browse, find and perform actions on Nuxeo enterprise content from google assistant (available on smart speakers, smart displays, Android assistant and iOS google assistant app).
 
-![nuxeo assistant](assistant_conv_example.gif?raw=true "nuxeo assistant" | width=100)
+![nuxeo assistant](assistant_conv_example.gif?raw=true "nuxeo assistant")
 
 ## Project structure
 ![nuxeo assistant chart](NXAssistant_chart.png?raw=true "nuxeo assistant chart")
